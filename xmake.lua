@@ -11,7 +11,7 @@ add_repositories("libxse-xrepo https://github.com/libxse/libxse-xrepo")
 add_requires("commonlibsse-ng")
 
 target("WerewolfHotkey")
-    add_rules("commonlibsse.plugin", {
+    add_rules("@commonlibsse-ng/plugin", {
         name = "WerewolfHotkey",
         author = "you",
         description = "Press a hotkey (default K) to transform into a werewolf",
